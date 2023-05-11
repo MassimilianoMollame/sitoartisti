@@ -1,0 +1,125 @@
+html, body{
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #4B066C;
+    margin-bottom: 100px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+header a:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 149);
+}
+
+header div.content h1 {
+    font-weight: bold;
+    margin:16px;
+    font-size: 50px;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+header div.content h1:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 149);
+}
+
+header ul {
+    margin: 0%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+
+
+
+section.colonne {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 150px;
+    padding: 16px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+section.colonne div {
+    background-color: none;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    background-color:  #4B066C;
+}
+
+
+
+section.colonne div:hover {
+    -webkit-box-shadow: 0px 14px 34px 7px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 0px 14px 34px 7px rgba(0, 0, 0, 0.31);
+    box-shadow: 0px 14px 34px 7px rgba(0, 0, 0, 0.31);
+    transition-duration: 400ms, 300ms, 400ms;
+    transition-timing-function: ease-out, ease-out, ease-out;
+}
+
+
+section.colonne div img {
+    border-radius: 10px 10px 0 0;
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+section.colonne div h1 {
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 1.563rem;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+section.colonne a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-top: 25px;
+    font-family: 'Inter', sans-serif;
+}
+
+section.colonne h1:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 149);
+}
+
+
+section.footer{
+    background-color: #4B066C;
+    color: rgb(255, 255, 255);
+    font-size: 0.800rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 90px;
+    text-align: center;
+    line-height: 15px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+section.footer a {
+    text-decoration: unset;
+}
